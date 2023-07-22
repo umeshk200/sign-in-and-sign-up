@@ -1,25 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
+import { Routes, Route } from "react-router-dom";
 import './App.css';
+import Dashboard from "./Components/Dashoard"
+import FirstPage from "./Components/FirstPage"
+import SecondPage from "./Components/SecondPage"
+import ThirdPage from "./Components/ThirdPage"
+import SpinBtn from "./Components/SpinBtn"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+ 
+         <Routes>
+         <Route path="/" element={<FirstPage />}/>
+           <Route path='secondPage' element={<SecondPage />} />
+           <Route path="/ThirdPage" element={<ThirdPage />} />
+           <Route path="/dashboard" element={<Dashboard />} />
+       </Routes> 
+    
+        {/* <SpinBtn/> */}
+    {/* <FirstPage/> */}
+    {/* <SecondPage/> */}
+    {/* <ThirdPage></ThirdPage> */}
+    {/* <Dashboard></Dashboard> */}
+     
+    </>
   );
 }
 

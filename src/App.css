@@ -1,38 +1,232 @@
-.App {
+
+.ant-layout-sider-children{
+  background-color: white;
+}
+
+.ant-menu-title-content{
+  text-align: end;
+}
+
+ul{
+  list-style: none;
   text-align: center;
+
+}
+ul li{
+  display:inline-block;
+}
+.loginButton Button .button:hover{
+  background-color:black;
+}
+.btns{
+  float: right !important;
+   border-radius: 19px !important;
+  font-weight: 600 !important;
+  margin-bottom: 6px;
+  margin-left: 30px !important;
+  color: #d72a2a;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btns:hover{
+  background: white !important;
+  color: rgb(236, 36, 36) !important;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.h{
+  margin-top: 23px !important;
+  margin-right: 82% !important;
+  border: none !important;
+  width: 63px !important;
+  height: 33px !important;
+  border-radius: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.h:hover{
+  color: red !important;
+  border:1px solid red !important;
+  background-color: white !important;
+}
+.clear{
+  cursor: pointer;
+}
+.imgs{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 70px !important;
+  margin: auto !important;
+  margin-top: 18px !important;
+}
+
+.inputs{
+  border-radius: 20px !important;
+  width: 100% !important;   
+  
+}
+
+.mainSec{
+  box-shadow: 1px 1px 1px 2px #eee;
+  width: 29% !important;
+}
+.allbtns{
+  border-radius: 32px !important;
+  padding: 10px !important;
+  height: 46px !important;
+  width: 46px !important;
+  border: none !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  background:white ;
+  border: 1px solid black !important;  
+
+
+}
+.allbtns:hover{
+  background: red;
+  color: #eee;
+}
+.back{
+  border: none;
+  border-radius: 20px;
+  padding: 2px;
+  width: 60% !important;
+  background:#030366;
+  color: white;
+  font-weight: 700;
+  margin-left: 15px;
+  height: 40px;
+}
+.main_btn{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: auto;
+
+}
+.modalBtn{
+  margin-inline: 21px !important;
+ 
+  width: 70% !important;
+  height: 42px !important;
+  border-radius: 25px !important;
+}
+.back:hover{
   color: white;
 }
+.margin{
+  margin-left: 40%;
+}
+.cancel{
+  border: none;
+  border-radius: 12px;
+  padding: 2px;
+  width: 60% !important;
+  height: 36px;
+  background:red;
+  color: white;
+  font-weight: 700;
+  margin-left: 67px;
+}
+.cancels{
+  border: none;
+  border-radius: 20px;
+  padding: 2px;
+  width:100px;
+  height: 37px;
+  background:#d72a2a;
+  color: white;
+  font-weight: 700;
 
-.App-link {
-  color: #61dafb;
+}
+.n{
+  margin-left: 78px !important;
+    font-size: 25px !important;
+}
+.forgot{
+  cursor: pointer;
+}
+.firstmain{
+  width: 30% !important ;
+  height: auto;
+
+  box-shadow: 1px 1px 1px 2px #eee;
+}
+.photo{
+  width: 50%;
+  height: 130px;
+  border-radius: 83px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+margin: auto;
+}
+.photos{
+  width: 25%;
+  height: 50px;
+  border-radius: 83px;
+ 
+ 
+}
+.down{
+  margin-top: 300px;
+  margin-left: 10px;
+  gap: 20px;
+
+}
+.down:hover{
+  background:  #ccc;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.icon{
+  display: flex !important;
+  float: right !important;
+  align-items: end !important;
+  position: relative;
+  position: relative;
+  right: -197px;
+  top: -24px;
+  font-size: 24px;
+  color: #ccc;
+
+}
+.circle {
+  height: 15px;
+  width: 15px;
+  border: 1px solid #ccc;
+  border-radius: 100%;
+}
+.active{
+  background: red;
+  border-color: red;
+}
+.boxs{
+     width: 37% !important;
+    height: 120px !important;
+    display: flex !important;
+    justify-content: center !important;
+    margin: auto !important;
+    box-shadow: 2px 6px 3px 3px #eee !important;
+    border-radius: 9px !important;
+    padding: 50px !important;
+    font-size: smaller;
+    cursor: pointer;
+    color: black !important;
+    text-shadow: 1px 1px 1px 2px #eee ;
+}
+.boxs:hover{
+  background: red;
+  color: #eee !important;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.col .hover:hover{
+  background-color: #f54952;
+  color: white;
+  border-radius: 12px;
+}
+.col .hover{
+  box-shadow: 5px 5px 5px 5px #F5F5F5;
+}
+.mainProfile{
+  box-shadow: 5px 5px 5px 5px #F5F5F5;
 }
